@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-const filterUndefinedParam = require('../../built/core/object/filterUndefinedParam').default;
+const { filterUndefinedParam } = require('../../dist/lib/doraemon-utils');
 
 
 

@@ -1,0 +1,5 @@
+/dist/
+**/*.test.*
+**/*.md
+**/*.demo.*
+rollup.config.js

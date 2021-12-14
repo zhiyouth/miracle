@@ -1,10 +1,25 @@
 {
   "compilerOptions": {
-      "outDir": "./built",
-      "allowJs": true,
-      "target": "es5"
+    "baseUrl": ".",
+    "paths": {
+      "root/*": ["./*"]
+    },
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "plugins": [
+      {
+        "name": "tslint-language-service"
+      }
+    ],
+    "types": ["node"],
+    "target": "es5",
+    "lib": ["dom", "es6", "dom.iterable", "scripthost"],
+    "outDir": "dist",
+    "removeComments": false,
+    "strict": true
   },
-  "include": [
-      "./src/**/*"
-  ]
+  "include": ["src", "config", "types"],
+  "exclude": ["dist", "libs", "node_modules"]
 }
