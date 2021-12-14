@@ -1,9 +1,9 @@
 {
-  "name": "miracle",
+  "name": "doraemon-utils",
   "version": "1.0.0",
   "description": "utils",
   "main": "index.js",
-  "author": "tanghao",
+  "author": "webstertang",
   "scripts": {
     "tsc": "rm -rf ./built && tsc",
     "test": "mocha 'test/**/*.test.js'"
